@@ -1,0 +1,26 @@
+{
+  "name": "performant-labs/default_content_test_recipe",
+  "description": "Apply a standalone Drupal site to test Default Content.",
+  "type": "drupal-recipe",
+  "authors": [
+    {
+      "name": "André Angelantoni",
+      "homepage": "https://performantlabs.com",
+      "role": "Maintainer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Performant-Labs/default_content_test_support"
+    }
+],
+"minimum-stability": "dev",
+"require": {
+    "drupal/core": "^10",
+    "drupal/default_content": "^2.0@alpha",
+    "performant-labs/default_content_test_support": "dev-main"
+  },
+  "suggest": {},
+  "license": "GPL-2.0-or-later"
+}
